@@ -1,0 +1,20 @@
+
+.titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+
+.lista{ 
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+
+.item-lista{
+    justify-content: center;
+    align-self: center;
+    margin-right: 31px;
+    font-size: 25px;
+}
