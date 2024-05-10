@@ -1,8 +1,27 @@
+.body{
+    background-color: #ab93ed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .tabela{
     display: block;
+    border: 0;
     
 }
 
 .texto{
     text-align: center;
+    font-style: italic;
+    font-style: oblique;
+    font-size: larger;
+}
+
+.pfp{
+    height: 70px;
+    width: 70px;
+}
+
+.logo{
+    height: 70px;
+    width: 100px;
 }
