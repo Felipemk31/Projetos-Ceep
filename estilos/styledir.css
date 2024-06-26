@@ -36,3 +36,12 @@
     text-decoration-color: black;
 }
 
+.link:active{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.link:visited{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
