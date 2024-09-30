@@ -22,6 +22,8 @@ body {
 
 .product-image img {
     max-width: 100%;
+    height: 400px;
+    width: 400px;
     border-radius: 8px;
 }
 
