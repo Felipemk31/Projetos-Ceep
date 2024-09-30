@@ -9,6 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #fca33e;
 }
 
 
@@ -21,7 +22,15 @@ body {
 header {
     background: #f8b400;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
 }
 
 
@@ -53,7 +62,7 @@ nav ul li a {
 .hero {
     background: #f3f3f3;
     text-align: center;
-    padding: 50px 0;
+    padding: 110px 0;
 }
 
 
@@ -76,6 +85,17 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.btnp {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #f8b400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15;
 }
 
 
