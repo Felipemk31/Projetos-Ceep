@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./carrinho.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+
+    <button class="buttonV"><a href="javascript:history.back()">Voltar a pagina anterior</a></button>
+
+    <div class="container">
+        <h1>Carrinho de Compras</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chocolate Gourmet²</td>
+                    <td>2</td>
+                    <td>R$ 49,90</td>
+                    <td>R$ 99,80</td>
+                </tr>
+                <tr>
+                    <td>Doces Sortidos Açucarados</td>
+                    <td>1</td>
+                    <td>R$ 29,90</td>
+                    <td>R$ 29,90</td>
+                </tr>
+                <tr>
+                    <td>Balas Coloridinhas</td>
+                    <td>1</td>
+                    <td>R$ 19,90</td>
+                    <td>R$ 19,90</td>   
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><strong>Total</strong></td>
+                    <td><strong>R$ 149,60 </strong></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Informações do Cliente</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" required>
+
+            <h2>Endereço de Entrega</h2>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" required>
+
+            <h2>Método de Pagamento</h2>
+            <select>
+                <option>Cartão de Crédito</option>
+                <option>Boleto Bancário</option>
+                <option>PayPal</option>
+                <option>Pix</option>
+            </select>
+
+            <h2>Total da Compra</h2>
+            <p>Total do Carrinho: R$ 149,60</p>
+            <p>Frete: R$ 15,00</p>
+            <p><strong>Total Final: R$ 164,60</strong></p>
+
+            <button type="submit">Finalizar Compra</button>
+        </form>
+    </div>
+</body>
+</html>
